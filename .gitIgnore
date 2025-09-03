@@ -8,7 +8,7 @@
 
 # production
 /build
-
+/dist
 # misc
 .DS_Store
 .env
@@ -16,6 +16,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.parcel-cache
 
 # logs
 npm-debug.log*

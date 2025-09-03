@@ -1,0 +1,36 @@
+{
+  "name": "react_js",
+  "version": "1.0.0",
+  "description": "- VS Code uses Emmet to generate the simple code - Order of the files in index.html should be sequential - Whatever the content present in the html it will be replaced with the data which is in the react app #### Adding React.js into Project - CDN Links (Content Delivery Networks)     - react.development.js (Contains the core React Framework)     - react-dom.development.js (Bridge to connect to the DOM) #### Code",
+  "keywords": [
+    "react",
+    "react.js"
+  ],
+  "homepage": "https://github.com/anilsimha13/react-implementation#readme",
+  "bugs": {
+    "url": "https://github.com/anilsimha13/react-implementation/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anilsimha13/react-implementation.git"
+  },
+  "license": "ISC",
+  "author": "Anil Simha",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+
+  "browserslist": [
+    "last 1 Chrome version",
+    "last 1 Firefox version",
+    "last 1 Safari version"
+  ]
+}
