@@ -62,3 +62,55 @@ root1.render(parent);
   - import React from 'react'
 - npm install react-dom
   - import ReactDom from 'react-dom'
+
+  ## Episode - 3 (Laying the foundation)
+
+### Things to remember
+
+- package.json
+   - script object
+```js 
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+```
+```npm run start``` or ```npm start```
+
+#### JSX
+- JavaScript Syntax to create React elements
+- JSX is HTML like syntax
+- Browsers don't understand the JSX syntax, hence Parcel will convert it with the help of Babel to understand for Browsers
+- Babel: Javascript compiler
+- Attributes in JSX are camel casing (ex: className)
+
+
+#### React Component
+- Class Based
+  - Old Way of Writing the code
+- Functional Based
+  - New way of writing the code
+  - Just a Normal function
+  - Component Composition (Component inside component)
+```js
+
+//Functional Component
+const Heading = () => (
+    <h1>I am from the Heading Component 🚀</h1>
+)
+
+//React Element
+const subHeading0 = (
+    <h3>I am from SubHeading0 and being called from SubHeading</h3>
+)
+//React Functional Componenr
+const SubHeading = () => (
+    <div id='container'>
+        <Heading />
+        <h2>I am from SubHeading Component and calling the Heading Component</h2>
+        {subHeading0}
+    </div>
+)
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(< SubHeading/>)
+
+```
+
