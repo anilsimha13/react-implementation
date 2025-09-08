@@ -87,6 +87,7 @@ root1.render(parent);
 - Class Based
   - Old Way of Writing the code
 - Functional Based
+  - Should start with Capital letter
   - New way of writing the code
   - Just a Normal function
   - Component Composition (Component inside component)
@@ -113,4 +114,17 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(< SubHeading/>)
 
 ```
+
+## Episode - 4 (Talk is cheap, Show me the code)
+
+### Things to remember
+  - props are just normal arguments to the Function
+  
+#### Build a Food Ordering App
+  - Fix Design
+  ```js
+  resList.map(rest =>  <RestaurantCard key={rest.info.id} resData={rest}/>)
+  ```  
+  
+
 

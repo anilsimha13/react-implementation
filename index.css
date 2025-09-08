@@ -1,9 +1,39 @@
-#heading {
-    color: brown;
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
 }
-#heading1 {
-    color: blue;
+.logo{
+    width: 120px;
 }
-#heading2 {
-    color: green;
+.nav-items>ul{
+    font-size: 25px;
+    display: flex;
+    padding: 0px 2-px;
+    list-style-type: none;
+}
+.nav-items > ul > li {
+    padding: 10px;
+    margin: 10px;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.res-card{
+    margin: 5px;
+    padding: 5px;
+    width: 350px;
+}
+.res-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+.search{
+    padding: 10px;
+}
+.rest-logo{
+    width: 100%;
 }
