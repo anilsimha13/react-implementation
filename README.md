@@ -125,6 +125,23 @@ root.render(< SubHeading/>)
   ```js
   resList.map(rest =>  <RestaurantCard key={rest.info.id} resData={rest}/>)
   ```  
-  
+
+## Episode - 5 (Let's get Hooked)
+
+### Things to remember
+  - Dafault export
+  - Named export
+  - Virtual DOM is the represenation of Actual DOM
+  - Reconciiation Algorithm (React Fiber) (React v16)
+    - Filtering
+    - Diff Algorithm
+    - OLD Virtual DOM - Actual DOM
+
+
+#### Hooks
+- Hooks are just a normal javascript function
+  - useState() - Superpowerful state variables
+  - useEffect()
+
 
 
