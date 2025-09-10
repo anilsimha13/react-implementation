@@ -141,7 +141,11 @@ root.render(< SubHeading/>)
 #### Hooks
 - Hooks are just a normal javascript function
   - useState() - Superpowerful state variables
-  - useEffect()
+  - useEffect() - Calls after the whole body renders
 
 
+## Episode - 6 (Exploring the World)
 
+### Things to remember
+- Monolithic
+- Microservice
