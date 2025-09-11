@@ -141,7 +141,15 @@ root.render(< SubHeading/>)
 #### Hooks
 - Hooks are just a normal javascript function
   - useState() - Superpowerful state variables
+    - Should be called only inside the body function
+    - Should be written at start of the body function
+    - Shouldn't be used in any conditional statements
+    
   - useEffect() - Calls after the whole body renders
+    - Two arguments (Callback fn and dependency array)
+    - When no dependency array it will be called on every render
+    - When empty dependency array it will be called only once initial render
+    - When it has dependency array then it will be called only when the dependency changes
 
 
 ## Episode - 6 (Exploring the World)
@@ -149,3 +157,12 @@ root.render(< SubHeading/>)
 ### Things to remember
 - Monolithic
 - Microservice
+
+
+## Episode - 7 (Finding the Path)
+
+### Things to remember
+- Routing
+  - ``` npm install react-router-dom ```
+  - Dynamic route
+  - Link
